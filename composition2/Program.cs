@@ -12,7 +12,7 @@ namespace composition2
             Comment c1 = new Comment("Have a nice trip!");
             Comment c2 = new Comment("Wow that's awesome!");
             Post p1 = new Post(
-                    DateTime.Parse("21/06/2018 13:05:44"),
+                    DateTime.ParseExact("21/06/2018 13:05:44", "dd/MM/yyyy HH:mm:ss", null),
                     "Traveling to New Zealand",
                     "I'm going to visit this wonderful country!",
                     12);
@@ -22,7 +22,7 @@ namespace composition2
             Comment c3 = new Comment("Good night");
             Comment c4 = new Comment("May the Force be with you");
             Post p2 = new Post(
-                    DateTime.Parse("28/07/2018 23:14:19"),
+                    DateTime.ParseExact("28/07/2018 23:14:19", "dd/MM/yyyy HH:mm:ss", null),
                     "Good night guys",
                     "See you tomorrow",
                     5);

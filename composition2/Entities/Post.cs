@@ -42,7 +42,7 @@ namespace composition2.Entities
             sb.AppendLine(Title);
             sb.Append(Likes);
             sb.Append(" Likes - ");
-            sb.AppendLine(Moment.ToString("dd/MM/yyyy HH:mm:ss"));
+            sb.AppendLine(Moment.ToString());
             sb.AppendLine(Content);
             sb.AppendLine("Comments:");
             foreach (Comment c in Comments)
